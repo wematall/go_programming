@@ -17,4 +17,9 @@ func main() {
 	fmt.Println(ok_0)
 	fmt.Println("element_ananas", element_ananas)
 	fmt.Println(ok_ananas)
+
+	fmt.Println("Using for loop")
+	for key, value := range mapa {
+		fmt.Printf("%s: %d\n", key, value)
+	}
 }
