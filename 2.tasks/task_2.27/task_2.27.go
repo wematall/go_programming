@@ -6,6 +6,7 @@ import "fmt"
 func swap_items(data []int) {
 	for i := 0; i < len(data)-1; i++ {
 		data[i], data[i+1] = data[i+1], data[i]
+		// fmt.Println(data)
 	}
 }
 
