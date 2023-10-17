@@ -6,7 +6,7 @@
 <details open>
 	<summary>Решения</summary>
 	
-##### 1. task_2.1 [task_2.1](https://github.com/wematall/go_programming/tree/develop/2.tasks/task_2.1)
+##### 1. task_2.1 [solution](https://github.com/wematall/go_programming/tree/develop/2.tasks/task_2.1)
 	Выведите все символы из строки 
 	"Данная глава была посвящена больше синтаксису Go",
 	значения индексов которых делятся на 2
