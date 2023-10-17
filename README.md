@@ -115,4 +115,21 @@
  
 </details>
 
+## 3. Функции
+<details>
+	<summary>Примеры</summary>
+##### 1. Hello World! as function
+	пример простой функции
+	напечатает Hello World! в консоль
+##### 2.
+</details>
+### Задачи, решения для главы 3
+
+<details>
+	<summary>Решения</summary>
+
+##### 31.
+
+</details>
+
 
