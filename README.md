@@ -3,7 +3,7 @@
 
 ## 2. Синтаксис, операторы и управляющие конструкции
 ### Задачи, решения для главы 2
-<details open>
+<details>
 	<summary>Решения</summary>
 	
 ##### 1. task_2.1 [solution](https://github.com/wematall/go_programming/tree/develop/2.tasks/task_2.1)
@@ -116,13 +116,17 @@
 </details>
 
 ## 3. Функции
+### Примеры реализации функций
+
 <details>
 	<summary>Примеры</summary>
+	
 ##### 1. Hello World! as function
 	пример простой функции
 	напечатает Hello World! в консоль
 ##### 2.
 </details>
+
 ### Задачи, решения для главы 3
 
 <details>
