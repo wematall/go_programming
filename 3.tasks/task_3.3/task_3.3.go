@@ -14,8 +14,20 @@ func multy(slice []int) int {
 	return multy
 }
 
+// функция возвращает произведение
+// элементов среза
+// использую рекурсию
+func multy_recurcive(slice []int) int {
+	// result := 1
+	if len(slice) <= 1 {
+		return slice[0]
+	}
+	return slice[0] * multy_recurcive(slice[1:])
+}
+
 func main() {
 	arr := []int{3, 2, 7}
 
 	fmt.Println(multy(arr))
+	fmt.Println(multy_recurcive(arr))
 }
