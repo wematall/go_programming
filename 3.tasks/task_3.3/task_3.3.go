@@ -25,9 +25,20 @@ func multy_recurcive(slice []int) int {
 	return slice[0] * multy_recurcive(slice[1:])
 }
 
+// using pointers
+func multy_pointers(slice *[]int) int {
+	result := 1
+	for i := range *slice {
+		result *= (*slice)[i]
+	}
+
+	return result
+}
+
 func main() {
 	arr := []int{3, 2, 7}
 
 	fmt.Println(multy(arr))
 	fmt.Println(multy_recurcive(arr))
+	fmt.Println(multy_pointers(&arr))
 }
