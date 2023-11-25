@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// функция возвращает произведение
+// элементов среза
 func multy(slice []int) int {
 	multy := 1
 
